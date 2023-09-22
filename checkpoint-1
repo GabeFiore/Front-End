@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expanor</title>
+    <link
+      rel="WebSite Icon"
+      type="png"
+      href="https://ld-wp73.template-help.com/wordpress/prod_21875/v1/wp-content/uploads/2019/01/cropped-favicon-1-192x192.png"
+    />
+    <style>
+      body {
+        background-image: url(https://windows10spotlight.com/wp-content/uploads/2017/05/662e474ef4fbb229cea1deba23640530.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        background-size: 100%;
+        text-align: center;
+      }
+      h1 {
+        text-align: center center;
+        color: aliceblue;
+        font-size: 80px;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://ld-wp73.template-help.com/wordpress/prod_21875/v1/wp-content/uploads/2018/07/logo.png"
+      alt="logo"
+    />
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+    <button>HOME</button>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <button>ABOUT</button>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <button>TOURS</button>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <button>SERVICES</button>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <button>CONTACT</button>
+    <hr />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1>
+      EXPLORING <br />
+      THE WORLD
+    </h1>
+    <br />
+    <img
+      src="https://ld-wp73.template-help.com/wordpress/prod_21875/v1/wp-content/uploads/2019/01/play.png"
+      alt="video"
+    />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <img
+      src="https://ld-wp73.template-help.com/wordpress/prod_21875/v1/wp-content/uploads/2019/01/home-portfolio-1.jpg"
+      alt="Italian Tours"
+      width="350"
+      height="450"
+    />
+    <img
+      src="https://ld-wp73.template-help.com/wordpress/prod_21875/v1/wp-content/uploads/2019/01/home-portfolio-3.jpg"
+      alt="Turkey Tours"
+      width="300"
+      height="220"
+    />
+    <img
+      src="https://ld-wp73.template-help.com/wordpress/prod_21875/v1/wp-content/uploads/2019/01/home-portfolio-2.jpg"
+      alt="Greece Tours"
+      width="350"
+      height="450"
+    />
+
+    <p>
+      Italian Tours from $1200&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp;Turkey Tours from $1200 &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp;Greece Tours from $420
+    </p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <h2>01. BEST HOTELS</h2>
+    <p>
+      We guarantee the best hotels and very comfortable rooms, which will be
+      appreciated by every traveller. You will be absolutely happy with the
+      hotel and will have a wonderful vacation there.
+    </p>
+
+    <h2>02. TOURIST GUIDE</h2>
+    <p>
+      We provide our clients with such a service as Tourist Guide. Its main goal
+      is to ensure people with all necessary information any time he needs. This
+      service is similar to Customer Support with emphasis on travelling.
+    </p>
+
+    <h2>03. FLIGHTS TICKETS</h2>
+    <p>
+      You can book tickets on any plane online via our booking system. Here you
+      have an opportunity to select your transport operator. Our representatives
+      will help you with the details.
+    </p>
+  </body>
+</html>
