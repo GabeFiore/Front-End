@@ -1,0 +1,16 @@
+article{
+    background-color: antiquewhite;
+}
+
+.classe1 {
+    background-color: aliceblue;
+}
+
+#id1 {
+    background-color: beige;
+}
+
+.fonte{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
