@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Flex model -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06</title>
+    <style>
+        .container{
+            background-color: paleturquoise;
+            display: flex;
+            flex-direction: row;
+            width: 200px;
+            /* Sem o nowrap (quebra) todos os items filhos devem se encaixar
+            Com o wrap (quebra) os items quebram a linha */
+            flex-wrap: wrap;
+        }
+        .item{
+            background-color: lightslategrey;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        @media (max-width:800px){
+            .container{
+                flex-direction: column;
+                background-color: blueviolet;
+                width: 100px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    Olá teste do flex
+
+    <div class="container">
+        <p class="item"> TESTE 1</p>
+        <p class="item"> TESTE 2</p>
+        <p class="item"> TESTE 3</p>
+        <p class="item"> TESTE 4</p>
+    </div>
+       
+</body>
+</html>
