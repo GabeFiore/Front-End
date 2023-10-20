@@ -1,0 +1,41 @@
+.container_coluna{
+    background-color: rgb(12, 108, 199);
+    display: grid;
+    grid-template-columns: 300px 200px 200px;
+
+}
+
+.container_linha{
+    background-color: rgb(104, 176, 243);
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+
+}
+
+.container_fracao{
+    background-color: rgb(245, 123, 43);
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+
+}
+
+.container_fracao_repeat{
+    background-color: rgb(196, 14, 14);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div{
+    background-color: rgb(90, 10, 136);
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+@media(max-width:1200px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        background-color: aquamarine;
+    }
+}
