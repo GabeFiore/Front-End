@@ -47,10 +47,11 @@
     }
     
     .texto_local {
-        position:absolute;
+        position: absolute;
+        top: 335px;
         text-align: center;
-        color: #fff; /* Cor do texto */
-        padding: 10px; /* Espaçamento interno para melhor legibilidade */
+        width: 100%;
+        background: none;    
     }
     
 
@@ -78,6 +79,11 @@
         overflow: hidden;
         font-family: 15px "Open Sans";
         color: #59595a;
+
+        margin: 0 0 20px;
+        color: #59595a!important;
+        font-size: 15px;
+        font-weight: 400;
     }
 
     .paragrafos_continuos {
