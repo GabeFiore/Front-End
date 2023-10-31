@@ -9,7 +9,7 @@
         width: 100%;
         height: 100%;
         grid-template-areas:
-        "endereço telefone pesquisa bt";
+        "endereço telefone pesquisa botao";
         
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1f;
@@ -27,8 +27,8 @@
         grid-area: pesquisa;
     }
    
-    .bt{
-        grid-area: bt;
+    .botao{
+        grid-area: botao;
     }
     .menu__nav{
         background-color: #201c54;
