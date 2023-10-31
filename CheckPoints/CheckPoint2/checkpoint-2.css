@@ -1,0 +1,90 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .cabeçalho{
+        background-color: #fcf7f7;
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-areas:
+        "endereço telefone pesquisa botao";
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1f;
+    
+    }   
+    .endereco{
+        grid-area: endereço;
+        color: #59595a;
+        font: 11px "Open Sans";
+    }
+    .telefone{
+        grid-area: telefone;
+        color: #59595a;
+        font: 11px "Open Sans";
+    } 
+    .pesquisa{
+        grid-area: pesquisa;
+        padding: 6px 12px;
+        background-color: #f7f7f7;    
+    }
+    .botao{
+        grid-area: botao;
+        padding: 4px 40px;
+        background-color: #30aaa0;
+    }
+
+    .caminho {
+        position: relative;
+        max-width: 100%;
+    }
+    
+    .fundo_local {
+        width: 100%;
+        height: auto; /* Ajuste a imagem para ocupar todo o contêiner */
+    }
+    
+    .texto_local {
+        position:absolute;
+        text-align: center;
+        color: #fff; /* Cor do texto */
+        padding: 10px; /* Espaçamento interno para melhor legibilidade */
+    }
+    
+
+
+    #primeira_sessão {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+    .imagem {
+        float: left;
+        margin: 10px;
+        width: 400px;
+        height: 400px;
+    }
+    .titulo {
+        font: 32.7467px "Open Sans";
+        color: #212121;
+        margin: -6px 0px 20px;
+        padding: 0px 0px 7px;
+    }
+    .paragrafo_direita {
+        margin: 50px;
+        overflow: hidden;
+        font-family: 15px "Open Sans";
+        color: #59595a;
+    }
+
+    .paragrafos_continuos {
+        font: 15px "Open Sans";
+        color: #59595a;
+        margin: 0px 0px 20px;
+
+
+    }
+
