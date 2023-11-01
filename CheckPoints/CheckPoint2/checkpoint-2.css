@@ -4,61 +4,90 @@
     box-sizing: border-box;
 
     }
+
+    /* HEADER */
     .cabeçalho{
         background-color: #fcf7f7;
         max-width: 100%;
-        display: grid;
-        width: 100%;
-        height: 100%;
-        grid-template-areas:
-        "pin_local endereço pin_tel telefone pesquisa botao";
-        
-        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        display: flex;
+        align-items: center;
     
     } 
     .pin_local {
-        grid-area: pin_local;
-        margin-top: 15px;
+        margin-left: 100px;
         
     }
     .endereco{
-        grid-area: endereço;
         color: #59595a;
         font: 11px "Open Sans";
-        margin-top: 15px;
+        margin-right: 55px;
+        margin-left: -165px;
     }
     .pin_tel {
-        grid-area: pin_tel;
-        margin-top: 15px;
+        margin-right: 100px;
+        margin-left: -25px;
     }
     .telefone{
-        grid-area: telefone;
         color: #59595a;
         font: 11px "Open Sans";
-        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: -85px;
     } 
     .pesquisa{
-        grid-area: pesquisa;
         padding: 6px 12px;
         background-color: #f7f7f7; 
-        margin-top: 10px;   
+        margin-right: -225px;
+        color: #f7f7f7;
+        border: 1px solid #eee;
+
     }
     .botao{
-        grid-area: botao;
         padding: 4px 40px;
         background-color: #30aaa0;
-        margin-top: 10px;
-    } */
+        color: white;
+        border: none;
+        border-radius: 3px;
+        margin-right: -105px;
+        margin-left: -150px;
+    } 
+
+    /* NAVEGAÇÃO */
+    .menu_nav {
+      background-color: #1e1b54;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .menu_nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .menu_nav li {
+      float: left;
+    }
+    .menu_nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
 
+    /* PATH */
+    a{
+        text-decoration: none;
+        color: white;
+      }
 
     .caminho {
         position: relative;
         max-width: 100%;
     }
-
-      
+  
     .fundo_local {
         border: 0;
         background-position: top center;
@@ -70,7 +99,7 @@
     .texto_local {
         color: #f7f7f7;
         position: absolute;
-        top: 300px;
+        top: 250px;
         text-align: center;
         width: 100%;
         background: none;    
@@ -78,7 +107,7 @@
     }
     
 
-
+    /* PARAGRÁFOS COM CONTEÚDO (MAIN) */
     .primeira_sessão {
         display: flex;
         justify-content: space-between; 
@@ -113,7 +142,6 @@
         margin-right: 55px;
     }
     
-    
     .paragrafos_continuos {
         color: #59595a;
         font: 18px "Open Sans";
@@ -126,6 +154,7 @@
 
     }
 
+    /* FOOTER */
     #rodape {
         background-color: #1e1b54;
       }
@@ -146,7 +175,10 @@
       .links-uteis img {
         padding-bottom: 20px;
       }
-      
+      .lista-links-uteis {
+        list-style: none;
+      }
+
       /* contatos  */
       
       .link-telefone {
@@ -158,6 +190,7 @@
         margin-top: 10px;
         display: flex;
         gap: 10px;
+        list-style: none;
       }
       
       /* medalha  */
