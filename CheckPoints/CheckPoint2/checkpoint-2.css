@@ -49,7 +49,7 @@
         padding: 4px 40px;
         background-color: #30aaa0;
         margin-top: 10px;
-    }
+    } */
 
 
 
@@ -57,7 +57,8 @@
         position: relative;
         max-width: 100%;
     }
-    
+
+      
     .fundo_local {
         border: 0;
         background-position: top center;
@@ -69,7 +70,7 @@
     .texto_local {
         color: #f7f7f7;
         position: absolute;
-        top: 335px;
+        top: 300px;
         text-align: center;
         width: 100%;
         background: none;    
@@ -109,6 +110,7 @@
         text-align: justify;
         letter-spacing: 0.5px;
         line-height: 25px;
+        margin-right: 55px;
     }
     
     
@@ -119,6 +121,63 @@
         letter-spacing: 0.5px;
         line-height: 25px;
         margin-left: 55px;
+        margin-bottom: 30px;
+        margin-right: 55px;
 
     }
 
+    #rodape {
+        background-color: #1e1b54;
+      }
+      
+      /* Links uteis  */
+      .rodapecontainer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        display: grid;
+        max-width: 65%;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+      }
+      img {
+        display: block;
+      }
+      .links-uteis img {
+        padding-bottom: 20px;
+      }
+      
+      /* contatos  */
+      
+      .link-telefone {
+        display: block;
+        margin-bottom: 20px;
+      }
+      
+      .grid-contato {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+      }
+      
+      /* medalha  */
+      .portal-flex {
+        display: flex;
+        gap: 10px;
+      }
+      
+      .googleplay,
+      .appstore {
+        max-width: 110px;
+      }
+      
+      /* direitos */
+      
+      .direitos {
+        color: #fff;
+        margin: 0;
+        padding: 25px;
+        display: block;
+        background-color: #80b2ad;
+        text-align: center;
+      }
