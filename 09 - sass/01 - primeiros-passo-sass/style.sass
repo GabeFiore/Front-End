@@ -1,0 +1,29 @@
+//VARIAVEIS: pode reutilizar chamando ela 
+$padding-div: 15px 10px
+$black: #333
+$primary-font: Helvetica, sans-serif
+$primary-color: #c3005e
+
+//NESTING: 
+div
+    width:50%
+    margin: 0 auto
+    text-align: center
+    border-radius: 10px
+    padding: $padding-div
+    background: $black
+    font-family: $primary-font
+    border: 1px solid $primary-color
+
+    p
+        color: $primary-color
+    
+    //PARENT SELECTOR
+    &:hover
+        background: transparent
+
+        p
+            color: $black
+
+p
+    color: #a0aa
