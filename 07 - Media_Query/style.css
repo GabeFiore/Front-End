@@ -19,3 +19,10 @@ h1,p {
         display: none;
     }
 }
+
+/* Orientação Horizontal - largura > altura */
+@media (orientation: landscape){
+    h1 {
+        color: blue;
+    }
+}
